@@ -148,3 +148,18 @@ Añadido a petición de Jorge después de la síntesis. Sin investigación propi
 | 17 | Gestión de fichas de Google Business Profile (SEO en Google Maps), en marca blanca para agencias | 2 | 1 | 3 | 1 | 1 | 8 |
 
 Razonamiento. Hay mucha gente pagando: agencias a 100 a 500 EUR por ficha y mes, herramientas de autoservicio a 40 a 70 USD al mes, encargos en Fiverr desde 5 USD. Pero el negocio local compra hablando, lo que choca con "sin llamadas"; el mercado está saturado; el abandono a 60 a 90 días es alto porque el resultado depende de reseñas y proximidad; y no usa ninguna ventaja de ingeniero. Solo es viable como trastienda para agencias y freelancers que ya tienen los clientes, cobrada por ficha y mes, por escrito. Empata con los candidatos 6 a 9 y queda por debajo de los cuatro primeros.
+
+## Anexo (4 oct 2026): volumen de búsqueda real
+
+Datos del Planificador de Google Ads y de Google Trends obtenidos desde una sesión local (detalle en research_notes/.../search_volume_planner_trends.md). Cambios en la tabla: GBP sube de 8 a 10 (Crecimiento 1 a 3: +105 % interanual, "seo local" +70 %); ISO 27001 baja de 11 a 10 (Demanda 3 a 2: 30 búsquedas/mes de plantillas en España); Verifactu baja de 9 a 7 (Crecimiento 2 a 0: -63 % interanual tras el aplazamiento). El orden de cabeza no cambia: Claude Code 12, ISO 9001:2026 12, CE + CRA 11.
+
+| Bloque | Búsq./mes ES | Global todos idiomas | Interanual ES | Puja sup. ES |
+|---|---|---|---|---|
+| iso9001 | 320 | 8.760 | +242 % | 2,34 EUR |
+| claudecode | 38.750 | 2.090.720 | +172 % (-33 % a 3 meses) | 2,65 EUR |
+| cecra | 560 | 23.930 | +49 % | 15,59 EUR |
+| iso27001 | 30 | 1.010 | -33 % | 11,26 EUR |
+| gbp | 14.120 | 1.228.220 | +105 % | 5,56 EUR |
+| controles (verifactu) | 47.590 | no pedido | -66 % | 4,99 EUR |
+
+Lo que cambia en la recomendación: el canal, no el orden. ISO 9001:2026 no tiene tráfico de búsqueda en España (210/mes el término clave); solo se valida con los 100 correos. CE + CRA tiene la puja más alta del informe (15,59 EUR), señal de dinero en consultoría; refuerza el Mom Test. Claude Code es cien veces mayor en volumen pero se enfría (-33 % a tres meses). Verifactu demuestra que la demanda ligada a una fecha se desploma con el aplazamiento, riesgo que comparten CRA y AI Act.
