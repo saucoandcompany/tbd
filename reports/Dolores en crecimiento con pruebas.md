@@ -138,3 +138,13 @@ La categoría B2C por anuncios queda fuera por decisión del fundador. Las notas
 La lectura conjunta de las seis líneas cambia la pregunta. El dolor más ruidoso (agentes de IA que fallan) no es el más vendible, porque el proveedor que lo causa es también quien lo empaqueta y el comprador se parece al consumidor que ya rechazó al fundador dos veces. El dolor más repetido en español (Verifactu) tiene un sustituto gratuito del Estado. Lo que queda son normas con fecha de publicación o de aplicación que nadie puede retirar, un comprador B2B que ya paga cientos de euros por documentos editables y un fundador cuyo historial profesional es exactamente ese documento. La ISO 9001:2026 es la ventana más corta y más limpia; el CRA es la ventana más larga y más propia.
 
 La prueba decisiva no la dan estas notas, sino 48 horas de preventa por escrito. Si cinco responsables de calidad pagan 149 euros por un kit que aún no existe, el fundador tendrá la primera evidencia de demanda obtenida con sus propias reglas: sin cara, sin llamadas, con un producto escrito revisado en una o dos horas por documento. Si no pagan, el informe ya señala el siguiente experimento y su fecha.
+
+## Anexo (4 oct 2026): candidato 17, Google Business Profile en marca blanca
+
+Añadido a petición de Jorge después de la síntesis. Sin investigación propia: puntuado de memoria, cifras aproximadas, todo [SIN VERIFICAR].
+
+| # | Candidato | Dolor | Crec. | Demanda | Encaje | Riesgo | Total |
+|---|---|---|---|---|---|---|---|
+| 17 | Gestión de fichas de Google Business Profile (SEO en Google Maps), en marca blanca para agencias | 2 | 1 | 3 | 1 | 1 | 8 |
+
+Razonamiento. Hay mucha gente pagando: agencias a 100 a 500 EUR por ficha y mes, herramientas de autoservicio a 40 a 70 USD al mes, encargos en Fiverr desde 5 USD. Pero el negocio local compra hablando, lo que choca con "sin llamadas"; el mercado está saturado; el abandono a 60 a 90 días es alto porque el resultado depende de reseñas y proximidad; y no usa ninguna ventaja de ingeniero. Solo es viable como trastienda para agencias y freelancers que ya tienen los clientes, cobrada por ficha y mes, por escrito. Empata con los candidatos 6 a 9 y queda por debajo de los cuatro primeros.
