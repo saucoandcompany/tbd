@@ -4,14 +4,14 @@
 
 **Leyenda de procedencia.** Cada prueba lleva una marca. **[ABIERTA]** significa que la página se abrió y se leyó (solo fue posible en github.com, claude.com y anthropic.com). **[FRAGMENTO]** significa que el dato procede del título, URL y resumen que devolvió el buscador, sin abrir la página. Salvo marca contraria, todo es [FRAGMENTO].
 
-## Diecisiete candidatos puntuados con volumen de búsqueda real: dos empatan a 12 de 15
+## Diecisiete candidatos puntuados con volumen de búsqueda real: ISO 9001:2026 encabeza con 12
 
 Cada candidato se puntúa de 0 a 3 en cinco ejes. Dolor mide intensidad y repetición de la queja. Crecimiento mide si el dolor sube en 2025 y 2026 o tiene fecha límite firme. Demanda demostrada mide gente pagando hoy por algo parecido. Encaje mide si el fundador puede producirlo por escrito, sin cara ni llamadas, desde su experiencia en conformidad de producto y operación con Claude Code. Riesgo se puntúa al revés: 3 es riesgo bajo y 0 es riesgo alto. El máximo es 15.
 
 | # | Candidato | Dolor | Crec. | Demanda | Encaje | Riesgo | Total | Prueba clave |
 |---|---|---|---|---|---|---|---|---|
 | 1 | Kit de transición ISO 9001:2026 (checklist de brechas, plan y procedimientos editables) | 2 | 3 | 2 | 3 | 2 | **12** | Norma publicada 16 sep 2026; dos cursos Udemy ya con 2.300+ y 1.118 alumnos ([Udemy](https://www.udemy.com/course/iso-90012026-standard-revision-changes-and-information/)) [FRAGMENTO] |
-| 2 | Manual operativo para dirigir un negocio de una persona con Claude Code o Cowork sin vigilancia (permisos, hooks, tareas programadas, coste, memoria) | 3 | 3 | 2 | 3 | 1 | **12** | Incidencia con 695 votos y 1.498 comentarios; "pago 200 dólares al mes y es inutilizable" ([GitHub #16157](https://github.com/anthropics/claude-code/issues/16157); [#41788](https://github.com/anthropics/claude-code/issues/41788)) [ABIERTA] |
+| 2 | Manual operativo para dirigir un negocio de una persona con Claude Code o Cowork sin vigilancia (permisos, hooks, tareas programadas, coste, memoria) | 3 | 3 | 2 | 3 | 0 | **11** | Incidencia con 695 votos y 1.498 comentarios; "pago 200 dólares al mes y es inutilizable" ([GitHub #16157](https://github.com/anthropics/claude-code/issues/16157); [#41788](https://github.com/anthropics/claude-code/issues/41788)) [ABIERTA] |
 | 3 | Pack de documentación CE más CRA para pequeños fabricantes de hardware conectado | 2 | 3 | 1 | 3 | 2 | **11** | Obligaciones de reporte CRA vigentes desde 11 sep 2026; aplicación completa 11 dic 2027 ([Browne Jacobson](https://www.brownejacobson.com/insights/cyber-resilience-act-reporting-obligations-in-force)) [FRAGMENTO] |
 | 4 | Kit documental ISO 27001 y RGPD en euros para pymes españolas | 2 | 2 | 2 | 2 | 2 | **10** | Advisera vende kits a 897 a 997 USD; High Table a 597 GBP con garantía; curso Udemy con 24.650 alumnos ([Advisera](https://advisera.com/27001academy/pricing/); [Udemy](https://www.udemy.com/topic/isoiec-27001)) [FRAGMENTO] |
 | 5 | Guía neutral Verifactu y factura electrónica para autónomos y gestorías | 3 | 0 | 2 | 1 | 1 | **7** | Hilo de Forocoches de al menos 17 páginas; app gratuita de la AEAT cubre ~80% de autónomos ([Forocoches](https://forocoches.com/foro/showthread.php?t=10383832); [esdiario](https://www.esdiario.com/economia/260812/195274/agencia-tributaria-autonomos-podran-emitir-facturas-manera-gratuita.html)) [FRAGMENTO] |
@@ -166,3 +166,8 @@ Datos del Planificador de Google Ads y de Google Trends obtenidos desde una sesi
 | controles (verifactu) | 47.590 | no pedido | -66 % | 4,99 EUR |
 
 Lo que cambia en la recomendación: el canal, no el orden. ISO 9001:2026 no tiene tráfico de búsqueda en España (210/mes el término clave); solo se valida con los 100 correos. CE + CRA tiene la puja más alta del informe (15,59 EUR), señal de dinero en consultoría; refuerza el Mom Test. Claude Code es cien veces mayor en volumen pero se enfría (-33 % a tres meses). Verifactu demuestra que la demanda ligada a una fecha se desploma con el aplazamiento, riesgo que comparten CRA y AI Act.
+
+
+## Corrección (4 oct 2026): riesgo del manual Claude Code
+
+Riesgo bajado de 1 a 0 (total 12 a 11) por coherencia con los packs genéricos de skills, que ya tenían 0 por la misma saturación: 7.880 skills gratuitas indexadas, repositorio gratuito con 32.400 estrellas, Claude Marketplace con 2.000+ plugins desde el 23 sep 2026, packs de Gumroad sin valoraciones visibles y Cowork del propio proveedor para el mismo comprador. Ranking resultante: ISO 9001:2026 12; CE + CRA 11; manual Claude Code 11; ISO 27001 + RGPD 10; GBP marca blanca 10. La recomendación no cambia y ahora coincide con la tabla: ISO 9001:2026 primero, CE + CRA en Mom Test, el manual de Claude Code se publica gratis para medir y no se prevende.
