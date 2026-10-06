@@ -25,3 +25,6 @@ Prueba: < 30 EUR. Producción: norma 150 a 200 EUR + 20 h de revisión de Jorge.
 
 ## Horas de Jorge hasta la decisión
 Unas 9 en diez días. Si se valida, 20 más en 15 días.
+
+## Marca (6 oct 2026)
+Normagrade (norma + upgrade). normagrade.es / .com / .eu / .io sin registros DNS el 6 oct; confirmar en DonDominio y TMview (mirar NORMA Group). Frase: "Normagrade · tu sistema de gestión, al día con la norma" / "your management system, upgraded to the standard". Buzón equipo@normagrade.es; firma "Equipo técnico de Normagrade". Descartados: Transnorma (triple lectura: transición, transporte, reivindicación), Normavía (segunda opción), Kitnorma, Claranorma, Puntonorma, Auditalista.
