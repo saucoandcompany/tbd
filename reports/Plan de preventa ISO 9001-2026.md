@@ -28,3 +28,6 @@ Unas 9 en diez días. Si se valida, 20 más en 15 días.
 
 ## Marca (6 oct 2026)
 Normagrade (norma + upgrade). normagrade.es / .com / .eu / .io sin registros DNS el 6 oct; confirmar en DonDominio y TMview (mirar NORMA Group). Frase: "Normagrade · tu sistema de gestión, al día con la norma" / "your management system, upgraded to the standard". Buzón equipo@normagrade.es; firma "Equipo técnico de Normagrade". Descartados: Transnorma (triple lectura: transición, transporte, reivindicación), Normavía (segunda opción), Kitnorma, Claranorma, Puntonorma, Auditalista.
+
+## Cambio (7 oct 2026): envío desde los dominios de fogueo de Normach
+La prueba sale desde normach.es o normach.net; normach.eu queda solo para máquinas. Sin compra de dominios, sin calentamiento; factura Sauco & Co SL si está constituida; el kit sale como producto de Normach (Normagrade opcional como nombre de producto). Condiciones: sí de Laura (remitente con su nombre), reputación en Postmaster Tools antes del lunes 13, lista sin repetir contactos ni empresas de la campaña de máquinas. Ritmo 25/día de martes 13 a viernes 16 (15/día si reputación baja). Cierre y decisión lunes 19 oct 11:00. El resultado es de Normach: la conversación con Laura sobre horas y equity es previa.
