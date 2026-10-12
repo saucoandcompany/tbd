@@ -72,3 +72,30 @@ y cualificarlos contra los buscadores de certificados; (2) generar la hoja de se
 columnas de la sección 6; (3) escribir el Apps Script de envío con los parámetros de la sección 6.
 No compres créditos ni cambies planes; no envíes ningún correo real sin que yo lo apruebe.
 ```
+
+## 9. ACTUALIZACIÓN 12 oct 2026 (decisiones de Jorge vía sesión "Leads Email" de Normach). MANDA SOBRE LA SECCIÓN 6.
+
+**Formato del test:** ticket de 149 €. UN SOLO correo por prospecto que pregunta si le interesa pre-reservar las plantillas pagando 149 €. Sin funnel: ni seguimientos, ni correo 2, ni correo 3 de Mom Test, ni peticiones de llamada. El correo lleva el precio y pide la decisión. Las reglas de Normach "el primer mensaje no pitchea" y "sin precios" NO aplican aquí.
+
+**Reglas que sí aplican:**
+- Hasta 30 al día por normach.es SOLO durante el test (después vuelve a 20). Ventana 07:00 a 17:15 lunes a jueves; viernes hasta 13:30. Suelo de 20 min por dominio, huecos irregulares de 20 a 27 min, nunca iguales ni por debajo de 20. Caben 26 a 30 lun-jue y 17 a 19 el viernes: 100 correos en unos 4 días hábiles.
+- Solo direcciones de persona. Nunca construir correos. Rebote o 5.7.1 cierra la dirección el mismo día, sin reintento. Opt-out vale para todos los canales. Todo en CSV con fecha absoluta.
+- Cero invención (testimonios, clientes, casos). Sin em-dashes. Nunca insinuar que se certifica: certifica un organismo acreditado.
+- Enviados de Gmail es la fuente de verdad. Correo en frío nunca con Responder.
+- Proyecto de Apps Script PROPIO (no tocar "Proyecto sin título", id 1Z371439oS-MJgRjEmKBCeZIiYJILNFbR8WbD-N0XJSV6hjXG_J95Fb1U, que es el de Normach con la tanda del 13/10 por .eu y .net). Comparten cuota diaria de Gmail (misma cuenta). previsualizar() como PRIMERA función (no envía; el desplegable preselecciona la primera). Verificador del día. cancelar() no borra propiedades del script. El desplegable solo se refresca al recargar.
+- Jorge aprueba el texto exacto antes de poner en cola. Quien conteste se contesta el mismo día y se le da lo que pida tal cual.
+- Saludo por hora real de envío: "Buenos días," hasta las 12:00, "Hola," después.
+
+**Cómo se envía:** Apps Script ejecutado por laura@normach.eu. Envío con GmailApp.sendEmail(para, asunto, textoPlano, {from: alias, htmlBody: html}) → multipart texto + HTML. Disparador cada minuto que solo actúa el día de su FECHA; cada envío con su hora en el plan y clave por día en propiedades del script para no repetir.
+**Firma:** GmailApp no añade la firma de Gmail; va pegada como HTML en htmlBody con <a href> real (en texto plano Gmail reescribe el dominio como enlace de seguimiento). laura@normach.es y laura@normach.net son alias "Enviar como" de laura@normach.eu. OJO: Return-Path de los tres dominios es laura@normach.eu; rebotes y respuestas del kit caen en la misma bandeja que las de Normach. El alias equipo@normach.es propuesto en la sección 2 hay que crearlo; si no existe el 13, el remitente será laura@normach.es.
+**Volumen real reciente de .es (techo 20):** 28/09 19 · 29/09 19 · 30/09 19 · 01/10 18 · 02/10 10 · 05/10 19 · 06/10 1 · 07/10 20 · 08/10 14 · 09/10 9. Postmaster no mirado. Sin recuento de rebotes.
+**Exclusividad de .es confirmada 13 a 16/10.** Los 48 seguimientos de Normach por .es se movieron al 19, 20 y 21/10. Durante el test Normach solo manda por .es dos respuestas manuales en hilos abiertos (Grupo Pymar el 14, IPLA): dejar 20 min a cada lado. Desde el 19, .es vuelve a Normach. Si el test no termina el 16, avisar a Jorge antes de seguir.
+**Lista de exclusión (cruzar por DOMINIO de correo y de web, no por dirección exacta):** C:\Users\jmoli\Claude\Projects\newbizz\cuentas_normach_121026.csv (1099 líneas, misma forma que cuentas.csv; tras la copia entraron 36 correos más en cuentas.csv). Para exclusión completa añadir: cuentas_eu.csv, los dos trackers de LinkedIn, calendario-envio-nordicos.csv y seguimientos-calientes.csv, en C:\Users\jmoli\Claude\Projects\Leads\leads (solo lectura).
+
+**Decide Jorge ANTES de enviar (no están decididos):**
+- Quién cobra y factura. Sauco & Co SL NO existe todavía; en Normach los presupuestos los emite Laura como autónoma.
+- Si el enlace de pago va en el correo frío o solo cuando digan que sí. Un enlace de pago en primer contacto puntúa en los filtros de spam.
+- Si los 149 € son reembolsables y cuándo se entregan las plantillas: debe ir escrito en el correo.
+- Cómo se escribe el IVA (149 € + IVA, o IVA incluido).
+
+**Consecuencias para lo escrito antes en este archivo y en el plan:** la secuencia de 3 correos de la sección 6 queda anulada; el correo 1 se reescribe para llevar precio, condiciones (reembolso, fecha de entrega, IVA) y la pregunta directa de pre-reserva; los umbrales se mantienen (sobre entregados); el cierre pasa a contarse 48 h después del último envío del viernes 16, es decir lunes 19 (hábil) como estaba.
