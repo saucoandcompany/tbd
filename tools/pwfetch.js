@@ -12,8 +12,8 @@ const strip = h => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/
     }
     const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', headless: true, proxy: { server: process.env.HTTPS_PROXY } });
     const page = await (await browser.newContext()).newPage();
-    const r = await page.goto(url, { timeout: 30000, waitUntil: 'networkidle' });
-    console.log(`STATUS ${r && r.status()} ${url}\n`); console.log((await page.innerText('body')).replace(/\s+/g,' ').slice(0, 20000));
+    const r = await page.goto(url, { timeout: 30000, waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(4000); console.log(`STATUS ${r && r.status()} ${url}\n`); console.log((await page.innerText('body')).replace(/\s+/g,' ').slice(0, 20000));
     await browser.close();
   } catch (e) { console.log('FAIL', url, e.message.split('\n')[0]); process.exit(2); }
 })();
