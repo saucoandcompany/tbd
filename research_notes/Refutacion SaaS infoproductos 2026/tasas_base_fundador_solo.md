@@ -1,6 +1,6 @@
 # Tasas base para un fundador solo sin capital: producto digital vs. servicio B2B productizado
 
-**Fecha de investigación:** 22-10-2026 · **Método:** fuentes abiertas descargadas y leídas desde la sesión (herramienta `pwfetch.js` + `curl`; CSV del Census y tablas AEAT parseadas con Python; PDFs con `pdftotext`). Páginas abiertas: 55 (tabla al final). Etiquetas: **[ABIERTA]** = página/fichero leído íntegro o en la parte relevante; **[FRAGMENTO]** = sólo extracto vía buscador o página bloqueada; **NO ENCONTRADO** = buscado sin resultado utilizable.
+**Fecha de investigación:** 22-10-2026 · **Método:** fuentes abiertas descargadas y leídas desde la sesión (herramienta `pwfetch.js` + `curl`; CSV del Census y tablas AEAT parseadas con Python; PDFs con `pdftotext`). Páginas abiertas con contenido leído: >50, más 8 bloqueadas o parciales (tabla al final). Etiquetas: **[ABIERTA]** = página/fichero leído íntegro o en la parte relevante; **[FRAGMENTO]** = sólo extracto vía buscador o página bloqueada; **NO ENCONTRADO** = buscado sin resultado utilizable.
 
 **Afirmación a juzgar (analista):** "Para un fundador solo sin capital, la probabilidad de superar 100.000 €/año con un producto digital (SaaS o infoproducto) en 24 meses es inferior al 5 %, mientras que un servicio B2B productizado vendido por correo frío a empresas con una obligación legal tiene probabilidad mucho mayor aunque techo más bajo."
 
