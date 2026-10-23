@@ -81,7 +81,7 @@ Fórmula: CAC = CPC / conversión. Clientes/mes = presupuesto / CAC. Ingresos/me
 | Kit transición ISO 9001:2026 (oferta Normagrade "Completo") | 2,34 | Planificador [INTERNO] | **234** | 249 | 90 % | 0,94 | 1,3 / 4,3 / 8,5 | 319 / 1.064 / 2.128 |
 | Ídem, licencia consultoras | 2,34 | ídem | 234 | 590 | 90 % | 0,40 | 1,3 / 4,3 / 8,5 | 756 / 2.521 / 5.043 |
 | Ídem con CPC real = 60 % de la puja (1,40 €) | 1,40 | supuesto | 140 | 249 | 90 % | 0,56 | 2,1 / 7,1 / 14,3 | 534 / 1.779 / 3.557 |
-| Fichero técnico + declaración UE Reglamento Máquinas 2023/1230 (aplicable 14-01-2027) | 3,00 | **sin dato**; proxy = Business Services 5,58 USD × 0,86 × (−40 %) ≈ 2,9 € | 300 | 390 | 90 % | 0,77 | 1,0 / 3,3 / 6,7 | 390 / 1.300 / 2.600 |
+| Fichero técnico + declaración UE Reglamento Máquinas 2023/1230 (aplicable 20-01-2027 según corrección de errores DOUE 04-07-2023; el texto original decía 14-01) | 3,00 | **sin dato**; proxy = Business Services 5,58 USD × 0,86 × (−40 %) ≈ 2,9 € | 300 | 390 | 90 % | 0,77 | 1,0 / 3,3 / 6,7 | 390 / 1.300 / 2.600 |
 | Kit Cyber Resilience Act (notificación 11-09-2026; resto 11-12-2027) | 15,59 | Planificador [INTERNO] | **1.559** | 490 | 90 % | 3,2 | 0,2 / 0,6 / 1,3 | 94 / 314 / 629 |
 | Kit ISO 27001 / NIS2 en español (NIS2 sin transponer) | 11,26 | Planificador [INTERNO] | **1.126** | 897 USD Advisera ≈ 770 € (supuesto cambio) | 90 % | 1,46 | 0,3 / 0,9 / 1,8 | 205 / 684 / 1.368 |
 | Kit PRL pyme (plan + evaluación) | 3,00 | sin dato; proxy | 300 | 99 (tope: Prevención10 gratis ≤25 trab.) | 90 % | **3,0** | 1,0 / 3,3 / 6,7 | 99 / 330 / 660 |
@@ -202,3 +202,6 @@ No verificado / sin datos:
 | 69 | 12 dominios probados (plantillasiso.com, kitiso9001.es, iso9001kit.es, plantillas-iso.com, documentosiso.es, kitrgpd.es, kitlopd.es, planigualdad.es, plantillasprl.es, kitprl.es, marcadoce.es, plantillasiso.es) | sin DNS | ningún vendedor ES de kits con ese nombre |
 
 Búsquedas web usadas (18, presupuesto agotado al final): kits ISO 9001 ES; plantillas PRL; kit RGPD (×2); canal de denuncias precios; plantillas marcado CE; tienda plantillas ISO (×2); benchmarks CPC España; conversión productos digitales; caída de ventas por IA (×2); Advisera métricas; Verifactu; registro horario; NIS2 España; SPA online PRL; Gumroad conversión; plan de igualdad plantillas. Los datos tomados solo de ellas están marcados [FRAGMENTO].
+
+
+> **Corrección posterior (23-10-2026, sesión principal):** la fecha de aplicación del Reglamento (UE) 2023/1230 es el **20-01-2027**, no el 14-01-2027. La corrección de errores publicada en el DOUE el 04-07-2023 (CELEX 32023R1230R(01)) sustituye «14 de enero de 2027» por «20 de enero de 2027» en los artículos 51, 52 y 54. La versión del reglamento leída vía r.jina.ai en esta nota era el texto original sin la corrección.
