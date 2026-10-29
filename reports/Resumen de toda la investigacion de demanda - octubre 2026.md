@@ -26,6 +26,20 @@ Nueve rondas de investigación, unas 50 notas en `research_notes/`, nueve inform
 4. **Las fechas legales crean picos cortos y mercados saturados a precio bajo.** Verifactu: 40.500 búsquedas/mes y −63 %, app gratuita y >12 herramientas a 0-20 €. La única fecha con cero autoservicio en español es el Reglamento de Máquinas (20-01-2027), y la única con obligación de proceso continuo es el CRA (soporte ≥5 años, notificación en 24 h desde el 11-09-2026).
 5. **Lo que resiste a la IA** no es código ni contenido: datos acumulados con retención legal (10 años en Máquinas y CRA), redes de dos lados, acceso o responsabilidad que exige papeles, y confianza por tiempo.
 
+## 2b. Demanda probada que se descartó por accesibilidad, no por demanda
+
+Estos bolsillos puntuaron arriba en el ranking de demanda voraz (21 y 22-10) con evidencia leída en página y no pasaron a las rondas siguientes. Conviene dejar escrito por qué.
+
+| Bolsillo | Evidencia de demanda | Precio privado observado | Por qué se descartó |
+|---|---|---|---|
+| Evaluación de TDAH y autismo adulto, Reino Unido (11/12) | ~562.000 derivaciones abiertas en Inglaterra a dic-2025 (desde ~365.000 un año antes), 61,6 % de adultos espera >1 año, ~20.000 derivaciones nuevas al mes [Carnall Farrar sobre NHS England, ABIERTA]; mediana 101 semanas y máxima 505 en Gales [FOI Hywel Dda, PRIMARIA]; 8.681 adultos y 107 semanas de media en Glasgow [FOI NHS GGC, PRIMARIA]; 688 M£ y 8.500 trabajadores anunciados por el Gobierno en dic-2025 | 950 £ evaluación TDAH online, 1.950 £ autismo, 180 £ revisión anual [Psychiatry-UK, ABIERTA] | El dinero exige psiquiatra o psicólogo clínico, registro CQC y captación vía Right to Choose del NHS. La capa sin licencia (coaching, planificadores, apps) es la que la IA comoditiza y cae en búsqueda: "adhd coach" −45 % interanual y "adhd planner" −33 % a 3 meses en EE. UU. [INTERNO]. En España la señal es menor y baja: "tdah adultos test" 2.400/mes, −21 % interanual, CPC 0,31-1,44 €; "coach tdah" 170/mes [INTERNO]. B2C de salud: datos de categoría especial, reclamos sanitarios. Ángulo no explorado: software para las clínicas privadas que evalúan (cribado, informe, revisiones); exigiría vender a clínicas y podría ser producto sanitario regulado por la MHRA. Sin verificar. |
+| Examen práctico de conducir, Reino Unido (10/12) | Media 22 semanas, 70 % de centros al máximo de 24 semanas [NAO]; 1,1 M de tests de backlog | Hasta 500 £ a revendedores de citas [NAO] | Mercado británico, reventa de citas perseguida por la DVSA, sin encaje con el perfil |
+| Dependencia, España (10-11/12) | 320 días de media, 265.503 personas en lista a mayo [Observatorio vía prensa, ABIERTA] | Tramitación privada 300-450 € por un trámite gratuito | Servicio a familias con llamadas y presencia; coordinación humana, no producto |
+| Regularización extraordinaria, España (10/12) | Fuente oficial La Moncloa | 300-450 € por trámite gratuito | Pico con fecha, despachos de extranjería ya saturan la oferta, exige trato personal |
+| Alquiler, Irlanda (10/12) | Daft vía Irish Times | — | Mercado físico y local fuera de España |
+
+Lectura común: donde el Estado fija un plazo y lo incumple con cifra pública, ya existe pago privado para saltar la cola, y ese precio mide la voracidad mejor que cualquier narrativa. Pero en todos los casos el cobro lo hace una licencia, una presencia o una persona al teléfono. Es la misma conclusión que el resto del estudio: la demanda no era el problema; lo era el acceso sin cara, sin llamada y sin título.
+
 ## 3. Dónde deja esto la decisión
 
 - Las restricciones acumuladas (sin capital, sin reuniones, sin LinkedIn, sin contenido, sin correo frío fuera de Normach, sin Normach) no dejan ningún candidato que pase limpio: lo dicen los datos de las nueve rondas, no mi opinión.
