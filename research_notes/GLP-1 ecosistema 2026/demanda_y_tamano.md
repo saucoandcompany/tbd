@@ -108,7 +108,23 @@ Advertencias: (i) el campo "subscribers" de arctic-shift es un metadato que pued
 
 ### 4b) Frecuencia de hilos por tema (posts con la palabra en el título; arctic-shift) [ABIERTA]
 
-TOPICS_TABLE_PLACEHOLDER
+Posts cuyo título contiene la palabra, septiembre 2025 vs septiembre 2026 ("s.d." = la API devolvió timeout en esa consulta; no es cero).
+
+| Palabra en título | r/Mounjaro sep-25 | sep-26 | r/Zepbound sep-25 | sep-26 | r/Ozempic sep-25 | sep-26 |
+|---|---|---|---|---|---|---|
+| muscle | 13 | 5 | 21 | 11 | 6 | 1 |
+| protein | 13 | 6 | 43 | 28 | 6 | 4 |
+| maintenance | 19 | 11 | 28 | 25 | 3 | 1 |
+| coming off | 3 | 3 | 3 | 1 | 1 | s.d. |
+| stopping | 8 | 16 | s.d. | 11 | 5 | 3 |
+| stopped | s.d. | 10 | 13 | 5 | 6 | s.d. |
+| rebound | 0 | s.d. | 1 | 1 | 4 | 0 |
+| strength training | 3 | 4 | s.d. | 4 | 1 | 0 |
+| nausea | 16 | 14 | s.d. | 21 | 8 | 9 |
+| constipation | s.d. | 1 | 13 | 13 | 6 | s.d. |
+| **Total posts del mes** | **2.362** | **1.327** | **5.024** | **3.213** | **807** | **427** |
+
+Lectura: (i) la suma "muscle+protein+maintenance+coming off+stopping+stopped" es ~2-3 % de los posts de cada subreddit (Zepbound sep-26: 81/3.213 = 2,5 %; Mounjaro sep-26: 51/1.327 = 3,8 %); los efectos secundarios (nausea, constipation) pesan parecido. (ii) r/Zepbound es donde más se habla de proteína y mantenimiento en absoluto (28 y 25 hilos/mes), coherente con que es el subreddit de obesidad puro. (iii) Los hilos de "stopping/stopped" en r/Mounjaro suben (8 → 16 y → 10) mientras cae todo lo demás: la cohorte que llegó en 2024-25 empieza a plantearse salir, que es exactamente el momento del negocio de Jorge. (iv) Existen subreddits dedicados: r/MounjaroMaintenance (12,9k suscriptores, 2.955 posts históricos) y r/ozempicmaintenance (4,2k): la "fase de mantenimiento" ya tiene comunidad propia en inglés; en español, nada equivalente.
 
 ### 4c) Comunidades en español
 - Reddit: inexistentes (ver arriba).
