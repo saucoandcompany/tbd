@@ -47,3 +47,36 @@ Después: `python3 -I tools/demanda/kp_pipeline.py data/planificador reports/uni
 - El autocompletado está sesgado hacia lo que Google quiere sugerir (filtra marcas, adultos, salud sensible) y mezcla portugués en algunas semillas.
 - La clasificación de intención es por expresiones regulares: "programa" captura programas de TV y "plantilla" captura plantillas de fútbol; el filtro de ruido quita lo obvio, el resto lo elimina el volumen o la revisión manual.
 - Frecuencia y relevancia no son volumen y no deben usarse para ordenar candidatos finales.
+
+## Hojas de Google Sheets (03-11-2026)
+
+Las listas prioritarias están también como Google Sheets de 2.000 filas en la carpeta de Drive "Demanda primero - Planificador" (cuenta saucoandcompany@gmail.com). Contenido idéntico a `*_para_planificador_ES_compacta_*.csv` y `*_US_compacta.csv`, troceado por orden alfabético. La hoja ES 2 lleva una keyword más (2.001) porque la última de la hoja ES 1 se pasó al principio de la 2.
+
+| Hoja | Filas de keywords | Enlace |
+|---|---|---|
+| ES prioritaria 1 de 6 | 1.999 | https://docs.google.com/spreadsheets/d/1Hn0HTdBPv45K1yNDCw8hC4jXPrK3w9amhCyhqeS904o |
+| ES prioritaria 2 de 6 | 2.001 | https://docs.google.com/spreadsheets/d/13XRH-N2F68bg6LdIDBGmXTAe6LKg5yuuGrQ91H-pF-E |
+| ES prioritaria 3 de 6 | 2.000 | https://docs.google.com/spreadsheets/d/11i_-QqoPv8889uPTJBusoOUDWcnOV0puGFS46-Yf5fQ |
+| ES prioritaria 4 de 6 | 2.000 | https://docs.google.com/spreadsheets/d/1TWdRUc55zEvMFPWXViqs6E4x4mj3_h6oIeiBXbyhFw8 |
+| ES prioritaria 5 de 6 | 2.000 | https://docs.google.com/spreadsheets/d/1p6-c7KYiewi3BTJYxPks8nnGQPViyKB8TGv_UDg227Q |
+| ES prioritaria 6 de 6 | 1.528 | https://docs.google.com/spreadsheets/d/1zFUoWOk8NELplTexyLHpPlIYVd65bEcqd9Q7gZiQDjY |
+| US prioritaria 1 de 4 | 2.000 | https://docs.google.com/spreadsheets/d/1zN3SjsClcmQYY-_wsKRxRU2oSPGHJOnaRTkLOlUDxvA |
+| US prioritaria 2 de 4 | 2.000 | https://docs.google.com/spreadsheets/d/1cCrSSDs2w6kuvxqNjaFBUhWS4ILbhdyIIf6ieyfQogs |
+| US prioritaria 3 de 4 | 2.000 | https://docs.google.com/spreadsheets/d/1E_FhI00qSdHdBzISdMemkYdjukvOyqcmVFsHlnPvFXo |
+| US prioritaria 4 de 4 | 1.584 | https://docs.google.com/spreadsheets/d/1c6oXL746ukXcf-09bCyCN35DtG5gh65w5JG3mHq1iD0 |
+
+### Aviso de calidad: la lista "prioritaria" es de recall, no de precisión
+
+Al copiarla a las hojas se vio que la lista es mucho más ruidosa de lo que decía el LEEME original: "intención herramienta, plantilla o servicio" se decide por una expresión regular sobre palabras como "app", "programa", "plantilla", "simulador", "generador" o "tool", y esas palabras abren consultas de consumo (plantillas de fútbol, programas de televisión, generadores eléctricos, canciones, zapatos de plataforma). El reparto por origen:
+
+| Mercado | Keywords prioritarias | De semillas de dominio | De semillas genéricas |
+|---|---|---|---|
+| ES | 12.829 | 2.708 (21 %) | 10.121 (79 %) |
+| US | 8.152 | 861 (11 %) | 7.291 (89 %) |
+
+El ruido no estropea la medición (el Planificador da volumen a cada fila y el filtro duro del pipeline descarta lo que no tiene puja ni intención) pero sí cuesta tiempo de revisión. Por eso se generan además tres listas depuradas, solo con keywords que salieron de semillas de dominio (iso, marcado ce, cbam, cmms, gmao, modelo 303/390, registro horario, ppwr, nis2, cra, as9100, etc.):
+
+- `universo/2026-11-01_depurada_dominio_ES_1.csv` (2.000) y `_ES_2.csv` (708)
+- `universo/2026-11-01_depurada_dominio_US_1.csv` (861)
+
+Limitación: ese filtro por procedencia deja fuera lo que solo sale de semillas genéricas, que es justo donde estaría un nicho que no hemos imaginado (por ejemplo "software para instaladores electricistas gratis"). Las listas completas siguen siendo la referencia para descubrir; las depuradas sirven para medir rápido lo que ya se sospecha.
